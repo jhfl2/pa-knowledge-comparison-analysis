@@ -4,6 +4,7 @@
 
 library(tidyverse)
 library(ggrepel) # For better text label placement
+library(janitor)
 
 data <- read_csv("Data.csv") %>%
   clean_names()
